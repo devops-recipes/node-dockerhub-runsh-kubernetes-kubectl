@@ -27,7 +27,7 @@ declarative deploy job, see [this sample project](https://github.com/shippableSa
 
 ## Add Continuous Delivery pipelines to deploy to Kubernetes
 
-* Create an integration for [Kubernetes](http://docs.shippable.com/integrations/containerServices/kubernetes/)
+* Create an integration for [Kubernetes](http://docs.shippable.com/platform/integration/kubernetes-config/)
 * All pipeline config is in `shippable.resources.yml` and `shippable.jobs.yml`. Check these files and update config wherever the comment asks you to replace with your specific values
 * Follow instructions to add your [Continuous Deployment pipeline](http://docs.shippable.com/tutorials/pipelines/howToAddSyncRepos/)
 * Right-click on the runSh job in the SPOG view named 'shipdemo-kubectl-deploy-test' and run the job
